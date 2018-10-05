@@ -1,0 +1,104 @@
+/* Extra Small Devices, Phones */ 
+
+@media only screen and (max-width : 920px) {
+	.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+  z-index: 3;
+}
+	/* .school_left span.title {
+	  display: none;
+	}
+	
+	 .schoo-management-content .col-sm-2.nopadding.school_left {   
+    width: 70px;
+    
+	}
+	.schoo-management-content .page-inner {
+	    margin-left: 70px;
+	   
+	} */
+.nav-side-menu .toggle-btn, .nav-side-menu .brand {
+  background: #2e353d none repeat scroll 0 0;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+	.schoo-management-content .page-inner {
+  margin-left: 0px;
+  margin-top: 120px;
+}
+.nav.nav-pills.nav-stacked.collapse.in {
+  background: #2e353d none repeat scroll 0 0;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+
+}
+
+.schoo-management-content .col-sm-2.nopadding.school_left{width:100%; position: absolute;}
+	.school_left ul li a {float: left;width:100%;}
+	
+	 .nav-side-menu {
+  
+    width: 100%;
+     margin-top: 65px;
+    margin-bottom: 10px;
+  }
+ .nav-side-menu .toggle-btn {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 27px;
+  height: 32px;
+  padding: 3px;
+  position: absolute;
+  right: 12px;
+  text-align: center;
+  top: 10px;
+  width: 48px;
+}
+   .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+ 
+}
+@media only screen and (max-width : 768px) {
+
+.overlay-content {
+  left: 21%;
+  width: 96%;
+}
+}
+@media only screen and (max-width : 600px) {
+
+	.mainpage .navbar h3 span {
+	  display: none;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.col-md-8.col-sm-8.col-xs-6 {
+	  width: 20%;
+	}
+	.nav.navbar-right.col-md-4.col-sm-4.col-xs-6 {
+	  width: 79%;
+	}
+	#calendar .fc-toolbar .fc-left,
+	#calendar .fc-toolbar .fc-right,
+	#calendar .fc-toolbar .fc-center
+	{float:left;width: 100%;padding-bottom:10px;}
+	.table .btn-primary{width: 100%;margin-bottom:5px;}
+	.period_box {
+	  position: relative;
+	  white-space: normal;
+	}
+	
+	.team .team-member{width:100%;}
+	
+}

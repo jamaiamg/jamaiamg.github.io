@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+         ================================================== -->
+<meta charset="utf-8">
+<title>School management system - Documentation</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+         ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- CSS
+         ================================================== -->
+<link rel="stylesheet" href="css/style.css" type="text/css"  media="all">
+<link rel="stylesheet" href="css/print.css" type="text/css"  media="print">
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:300,400" rel="stylesheet" type="text/css">
+<!-- JS
+         ================================================== -->
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<!--[if lt IE 9]>
+      <script src="js/modernizr.custom.11889.js" type="text/javascript"></script>
+      <![endif]-->
+<!-- HTML5 Shiv events (end)-->
+<!-- Favicons
+         ================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+<!-- Primary Page Layout
+         ================================================== -->
+<div id="wrap" class="colorskin-0">
+  <!-- end-header -->
+  <section class="container">
+    <div class="row">
+      <div id="header-sm">
+        <div class="col-md-3 logo"> <a href="index.html"><img src="images/logo-warranty.png" width="150" id="img-logo" alt="logo"></a> </div>
+        <div class="col-md-8 col-md-offset-1 desc">
+          <h4 class="slight">School Management System</h4>
+          <h5 class="slight"><small> Documented by Mojoomla - at May 11 2015</small></h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <aside id="side-nav">
+          <div class="logo"> <img src="images/mojoomla_logo.png" id="img-logo" alt="mojoomla" style="margin-bottom:20px;"> </div>
+          <ul id="top-menu">
+            <li><a class="current" href="#Introduction">Introduction</a></li>
+            <li><a href="#Installation">Installation</a></li>
+			 <li><a href="#Update">Update</a></li>
+			<li><a href="#admin_view">Admin view</a></li>
+			<li><a href="#student_view">Student</a></li>
+			<li><a href="#parent_view">Parent</a></li>
+			<li><a href="#teacher_view">Teacher</a></li>
+			<li><a href="#supportstaff_view">Support Staff</a></li>
+			<li><a href="#fronted-login">Fronted Login Page</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+			 <li><a href="#setting-up-Language">setting up Language</a></li>
+                    </ul>
+        </aside>
+      </div>
+      <div class="col-md-8">
+        <section  id="Introduction">
+          <div id="header" class="row">
+            <div class="col-md-3 logo"> <a href="index.html"><img src="images/logo.png"  id="img-logo" alt="logo"></a> </div>
+            <div class="col-md-8 col-md-offset-1 desc">
+              <h4 class="slight">School Management System</h4>
+              <h5 class="slight"><small> Created and modified by Mojoomla </a> - 30 June 2016</small></h5>
+            </div>
+          </div>
+          <hr class="vertical-space2">
+          <p align="center"><img src="images/preview-image.png"></p>
+          <h3><strong>A) Introduction</strong></h3>
+          <p>
+			School Management System Plugin for wordpress is ideal way to manage complete school operation. The system has different access rights for Admin, Teacher, Student and Parent.   
+			</p>
+          <p>This user guide covers all options that this plugin provides. Please read the documentation carefully as it probably contains answers to most of questions that may arise. If you feel some aspect is not covered or have some questions, contact us via e-mail sales@mojoomla.com. We will do our best to answer you in shortest  time.</p>
+          <hr class="vertical-space2">
+          <section id="Package">
+            <hr class="vertical-space2">
+			<hr>
+          
+          <section id="Installation">
+            <h3><strong>B)  Installation:</strong></h3>
+            <p>Steps for School Management System plugin Installation:</p>
+           <ol>
+              <li>Go to Wordpress Admin<strong>Plugins</strong> &rarr; click on <strong>Add New</strong> &rarr; click on <strong>Upload</strong>.</li>
+               <li>Unzip the "<mark>school_management_package.zip</mark>
+                " file and Upload the <mark>" school-management-system.zip
+ "</mark> . &rarr; click on <strong>Install Now</strong>. </li>
+              <li>Click on <strong>Activate plugin</strong>.</li>
+          	<li>You can see <strong>School Management System</strong> on dashboard.</li>
+            </ol>
+           
+            <hr>
+            </section>
+			 <section id="Update">
+            <h3><strong>C)  Update:</strong></h3>
+            <p>Steps for School Management System plugin Update:</p>
+           <ol>
+				<li>Download latest school management plugin from codecanyon</li>
+				<li>Unzip package and find school-management.zip</li>
+				<li>Go to Wordpress Admin => <strong>Plugins</strong></li>
+				<li>Deactivate School Management plugin. </li>
+				<li>Unzip school-management.zip </li>
+				<li>With your FTP program, upload the school-management folder to the wp-content/plugins</li>
+				<li>Again go to Wordpress Admin => <strong>Plugins</strong> </li>
+				<li>Active School Management Plugin.</li>
+            </ol>
+           
+            <hr>
+            </section>
+            
+			<section id="admin_view">
+				 <h3><strong>D)  Admin View:</strong></h3>
+				 <p><strong>Dashboard:</strong> Admin side dashboard view.</p>
+				<img alt="Install plugin" src="images/screenshot/admin-view-dashboard.png">
+            <hr>
+			</section>
+			<section>
+          <section id="General-Settings">
+            <h4><strong>1) General Settings</strong></h4>
+            <p>Click on <strong>General Setting</strong> under school management link-list to start setting up the system . You are advised to fill all fields of General settings as these details are used in different section of whole system .You can change these settings as per your requirement.</p>
+            <img alt="" src="images/screenshot/general-settings.png">
+            <br>
+            <br>
+             <ul>
+              
+            <ol>
+
+            	<li><strong>School Name:</strong> Enter name of school.</li>
+                <li><strong>Starting Year: </strong>Enter starting year of the school. </li>
+                <li><strong>School Address: </strong>Enter address of the school.</li>
+                <li><strong>Phone No.: </strong>Enter official  phone number of the school.</li>
+                <li><strong>Country: </strong>Enter country of School Located in.</li>
+                <li><strong>E-mail: </strong>Enter official e-mail address of the school.</li>
+                <li><strong>School Logo: </strong>Enter school logo.</li>
+                <li><strong>Profile Cover Image: </strong>Upload school photo and this will be used for profile background.</li>
+				<li><strong>Enable Sendbox: </strong>If you are test user for paypal then it should be enable.</li>
+				<li><strong>Paypal Email Id: </strong>Enter here your email id.</li>
+				<li><strong>Select Currency: </strong>From here select your currency.</li>
+                <li><strong>Pearent can be send message : </strong>If enable than parent can be send message to theire child's class student.</li>
+                 <li><strong>Student can be send message : </strong>If enable than student can be send message to each other of same class student.</li>
+             </ol>
+            
+            	 
+             
+             
+                
+            </ul>
+             <hr>
+            </section>
+            
+             <section id="Student">
+            <h4><strong>2)  Student:</strong></h4>
+            <p>You can manage all information about student and also view result and parent information of student.</p>
+            
+            <img alt="student " src="images/screenshot/student-list.png">
+            <br>
+            <br> 
+			<ol>
+				<h5><strong><li>Add Student Information:</li></strong></h5> 
+				<p> </p>
+            
+            <img alt="add-student " src="images/screenshot/add-student.png"><br><br>
+					<ul>
+						<li><strong>Class</strong>: Select class from dropdown in which class you want to add student. For more information on how to <a href="#class">create class </a> go to section 7</li>
+						<li><strong>Roll Number</strong>: Enter new student roll number. Each roll number must be unique.</li>
+						<li><strong>Name</strong>: Enter new student name.</li>
+						
+						<li><strong>Address</strong>: Enter current address of student.</li>
+						<li><strong>City</strong>: Enter city name of student.</li>
+						<li><strong>State</strong>: Enter state name of student.</li>
+						<li><strong>Phone</strong>: Enter mobile number of student or parent.</li>
+						<li><strong>Email</strong>: Enter email id of student. Email ID must be unique.</li>
+						<li><strong>Username</strong>: Enter username to enable student login. Username must be unique. </li>
+						<li><strong>Password</strong>: Enter password of student for login.</li>
+						<li><strong>Image</strong>: Upload profile image of student.</li>
+					</ul>
+				<h5><strong><li>Edit Student Information:</li></strong></h5> 
+              <p> </p>
+            
+            <img alt="view result" src="images/screenshot/edit-student.png">
+            <br>
+            <br> 
+				<p>To <strong>Edit Student</strong> data just click on edit link and admin can edit student profile details.</p>
+            <h5><strong><li>View Result:</li></strong></h5> 
+              <p>Admin can view result of particular student by clicking on view result button. This will open up resuls in pop-up box. From here admin can generate Marksheet in PDF format. </p>
+            <p>You can also print results directly by clicking on <strong>print</strong>button.</p>
+            <img alt="view result" src="images/screenshot/view-student-result.png">
+             <br>
+            <br> 
+            <h5><strong><li>View Parent:</li></strong></h5> 
+              <p>Display Information about parent of particular student.</p>
+            
+            <img alt="view parent" src="images/screenshot/student-parent-view.png">
+			<br><br>
+			 <h5><strong><li>Upload Student CSV File:</li></strong></h5> 
+              <p>You can upload bulk of student data in csv(Demo csv file studentlist.csv see in plugins).</p>
+            
+            <img alt="view parent" src="images/screenshot/student-upload-csv.png">
+			<br><br>
+			 <h5><strong><li>Export Student In CSV:</li></strong></h5> 
+              <p>You can export student data in csv format.</p>
+            
+            <img alt="view parent" src="images/screenshot/export_student.png">
+            </ol>
+			<hr>
+            </section>
+            
+             <section id="Teacher">
+            <h4><strong>4)  Teacher:</strong></h4>	
+            <p>You can add new Teacher and teacher profile as well as view complete list of all Teachers.</p>
+            
+            <img alt="teacher" src="images/screenshot/teacher-list.png"><br><br>
+			
+			<ol>
+				<h5><strong><li>Add Teacher Information:</li></strong></h5> 
+				<p> </p>
+				<img alt="teacher" src="images/screenshot/add_teacher.png"><br><br>
+				<ul>
+						<li><strong>Class</strong>: Select class from dropdown for which you want to assign these 
+						teacher.You can later add subjects taught by this teacher later on, under subject module.</li>
+						
+						<li><strong>Working Hour</strong>: Select working time of teacher. Full time or Part time</li>
+						<li><strong>Position</strong>: Enter teacher designation like lecturer or professor.</li>
+						<li><strong>Submitted Documents</strong>: Select any documents teacher has submitted to school.</li>
+						
+					</ul>
+					
+					<h5><strong><li>Edit Teacher Information:</li></strong></h5> 
+              <p> </p>
+            
+            <img alt="view result" src="images/screenshot/edit-teacher.png">
+            <br>
+            <br> 
+				<p>To <strong>Edit teacher</strong> just click on edit link against teacher list and admin can edit teacher profile.</p>
+			
+            <hr>
+            </section>
+			
+             <section id="support_staff">
+            <h4><strong>5)  Support Staff:</strong></h4>	
+            <p>You can add new support staff and support staff profile as well as view complete list of all support staff.</p>
+            
+            <img alt="teacher" src="images/screenshot/supportstaff-list.png"><br><br>
+			
+			<ol>
+				<h5><strong><li>Add Support Staff Information:</li></strong></h5> 
+				<p> </p>
+				<img alt="teacher" src="images/screenshot/add_supportstaff.png"><br><br>
+					<ul>				
+						<li><strong>Working Hour</strong>: Select working time of teacher. Full time or Part time</li>
+						<li><strong>Position</strong>: Enter teacher designation like lecturer or professor.</li>
+						<li><strong>Submitted Documents</strong>: Select any documents teacher has submitted to school.</li>				
+					</ul>
+					
+			
+            <hr>
+            </section>
+            <section id="Parent">
+            <h4><strong>6)  Parent:</strong></h4>
+            <p>You can add a new Parent information and view complete list of stutent's Parents. System allows the parent to have multiple child in same school.</p>
+				
+            <img alt="parent " src="images/screenshot/parent-list.png"><br><br>
+            <ol>
+			<h5><strong><li>Add Parent:</li></strong></h5>
+            <img alt="parent " src="images/screenshot/add-parent.png"><br><br>
+				<ul>
+						<li><strong>Child</strong>: Select child for the parent from the dropdown list of all students.</li>
+						<li><strong>Add Other Child</strong>: This option is useful if the parent has more then one child in same school.</li>
+						<li><strong>Remove </strong>: This is useful when one child leaves the school but other stays.</li>
+						<li><strong>Relation</strong>: Select relation for the parent with child-student.</li>
+						<li><strong>Mobile Number</strong>: Enter parent's mobile number.</li>
+						
+					</ul>
+				
+			<h5><strong><li>Edit Parent:</li></strong></h5>
+            <img alt="parent " src="images/screenshot/edit-parent.png"><br><br>
+			</section>
+            
+             <hr>
+              <section id="Subject">
+            <h4><strong>7)  Subject:</strong></h4>
+            <p>You can add a new Subject information with Teacher name, Class name, Auther name and Edition of the book and also attach syllabus of the subject and view all list of Subjects.</p>
+            
+            <img alt="display content of the subject" src="images/screenshot/subject-list.png"><br><br>
+			<ol>
+			<h5><strong><li>Add Subject:</li></strong></h5>
+            <img alt="parent " src="images/screenshot/add-subject.png"><br><br>
+				<ul>
+						<li><strong>Subject Name</strong>: Enter subject name you want to add.</li>
+						<li><strong>Class</strong>: Select class for that subject.</li>
+						<li><strong>Teacher </strong>: Assign teacher to this subject of a class.</li>
+						
+						
+					</ul>
+				
+			<h5><strong><li>Edit Subject:</li></strong></h5>
+            <img alt="parent " src="images/screenshot/edit-subject.png"><br><br>
+			
+            <hr>
+            </section>
+            
+			<section id="ClassName">
+            <h3><strong>8)  Class:</strong><a name="class">&nbsp;</a></h3>
+            <p>You can see all class listed here. Each class with information about the class like  name and capacity of the classes are also displayed here.  You can add or view Section-Division by click on <strong>View Or Add Section</strong> </p>
+            
+            <img alt="display content of the class " src="images/screenshot/class-list.png"><br><br>
+				<ol>
+			<h5><strong><li>Add Class:</li></strong></h5>
+				
+            <img alt="parent " src="images/screenshot/add-class.png"><br><br>
+				<ul>
+						<li><strong>Class Name</strong>: Enter class name you want to add.</li>
+						<li><strong>Numeric Class Name</strong>: Enter Numeric name of class.</li>
+					</ul>
+					<p>Here we have also added other extra fields. If you have requirements like that then you can use it.</p>
+				
+			<h5><strong><li>Edit Class:</li></strong></h5>
+			<p>If you want to edit some detail of class then you can also edit it.</p>
+            <img alt="parent " src="images/screenshot/edit-class.png"><br><br>
+			<h5><strong><li>View Or Add Section:</li></strong></h5>
+			<p>You can add or remove sectons from here.</p>
+            <img alt="parent " src="images/screenshot/add-view-section.png" style="border:#000 solid 1px;"><br><br>
+			<h5><strong><li>Edit Section:</li></strong></h5>
+			<p>You can edit sectons from here.</p>
+            <img alt="parent " src="images/screenshot/section_edit.png" style="border:#000 solid 1px;"><br><br>	
+			<hr>
+            </section>
+			
+			
+            <section id="Classroutine">
+            <h4><strong>9) Class Routine:</strong></h4>
+            <p>Here is the listing of all class. Click on particular class to view its routine. </p>
+            
+            <img alt="display content of the class " src="images/screenshot/student-class-routine-list.png"><br></br>
+				<ol>
+			<h5><strong><li>Add Class Routine:</li></strong></h5>
+				<img alt="parent " src="images/screenshot/add-routine.png"><br><br>
+					<ul>
+						<li><strong>Class</strong>: Select class from dropdown to add class routine.</li>
+						<li><strong>Class</strong>: Select section from dropdown to add class routine.</li>
+						<li><strong>Subject Name</strong>: Select subject name for which you want to add class routine.</li>
+						<li><strong>Day</strong>: Select day for that class routine.</li>
+						<li><strong>Start Time</strong>: Select starting time for class routine.</li>
+						<li><strong>End Time</strong>: Select Ending time  for that class routine.</li>
+					</ul>
+				<h5><strong><li>Teacher Timetable:</li></strong></h5>
+			<p>Here you can see each teacher's time table separately.</p>
+            <img alt="parent" src="images/screenshot/teacher-timetable.png"><br><br>
+			<hr>
+            </section>
+			
+            
+			 <section id="Attendance">
+            <h4><strong>10) Attendance:</strong></h4>
+            <p>Manage daily Attendance of the student and teacher.</p>
+             <h5><strong>1.Student Attendance</strong></h5>
+             <p>Class wise Attendance for students</p> 
+            <img alt="display content of the student attendance " src="images/screenshot/student-attendence.png">
+            <br>
+            <br>
+			<p>If you want to see attendance of any past dates then just enter date and select class and click on <strong>Take/view Attendance</strong>. 
+			You can just view past days attendance but you can't edit. While for current date it allows you to edit the attendance</p>
+			<p>If student is absent and send sms to his/her parent's then check the check-box.</p>
+             <h5><strong>2.Teacher Attendance</strong></h5> 
+             <p></p>
+            
+            <img alt="display content of the teacher attandance" src="images/screenshot/teacher-attendence.png"><br><br>
+			<p>Here you can also take teachers attendance .</p>
+			 <h5><strong>3. Subject Wise Attendance</strong></h5> 
+             <p></p>
+            
+            <img alt="display content of the subject attandance" src="images/screenshot/subject-wise-attendance.png"><br><br>
+			<p>Here you can also take subject wise student attendance .</p>
+            <hr>
+            </section>
+			 
+			   <section id="Exam">
+            <h4><strong>11)  Exam:</strong></h4>
+            <p>Display a exam name , starting date of exam and exam related comments.</p>
+            
+            <img alt="display content of the exam " src="images/screenshot/exam-list.png"><br></br>
+			<ol>
+            <h5><strong><li>Add Exam:</li></strong></h5>
+				<img alt="parent " src="images/screenshot/add-exam.png"><br><br>
+					<ul>
+						<li><strong>Exam Name</strong>: Enter exam name.</li>
+						<li><strong>Exam Date</strong>: Enter date of exam.</li>
+					</ul>
+					<p>You can also edit exam in similar manner</p>
+			</ol>
+			<hr>
+            </section>
+           
+            
+            
+            <section id="Grade">
+            <h4><strong>12) Grade:</strong></h4>
+            <p>Display details about grade system. </p>
+            <img alt="display content of the grade system " src="images/screenshot/grade-list.png"><br><br>
+            <ol>
+            <h5><strong><li>Add Grade:</li></strong></h5>
+				<img alt="parent " src="images/screenshot/add-grade.png"><br><br>
+					<ul>
+						<li><strong>Grade Name</strong>: Enter name of the grade.</li>
+						<li><strong>Grade Point</strong>: Enter grade or credit point.</li>
+						<li><strong>Mark From, Upto</strong>: Enter value for mark from and upto, to define equivalent grade calculation.</li>
+					</ul>
+				
+			</ol>
+			<hr>
+            </section>
+             
+            <section id="Marks">
+            <h4><strong>13)  Marks Manage:</strong></h4>
+            <p> Enter Student marks from here. For that You must select exam name, class name, subject name and then press manage marks.</p>
+            
+            <img alt="display content of the select exam " src="images/screenshot/marks-manage.png">
+            <br>
+            <br>
+			<p>To upload CSV file for enter student marks select csv file from browse and click on <strong>Fill data from CSV</strong> button.</p>
+			<p>To enter marks for individual student <strong>Enter Marks value</strong> and then click on Add mark button. If you want to enter marks for all student at once then first add marks value against each student and then click on <strong>Update All Marks.</strong></p>
+              
+             <ol>
+            <h5><strong><li> Update student marks:</li></strong></h5> 
+            <img alt="display content of the manage marks " src="images/screenshot/update-marks.png"><br><br>
+            <p>If you want to update marks then its also possible from here.</p>
+			<h5><strong><li> Export marks:</li></strong></h5> 
+            <img alt="display content of export mark " src="images/screenshot/export-marks.png"><br><br>
+            <p>You can also export the whole class of marks result in csv file from here.</p>
+			<h5 id="add_multiple_marks"><strong><li> Add Multiple Subject Marks:</li></strong></h5> 
+            <img alt="display content of subject marks " src="images/screenshot/add-multi-subjectmark.png"><br><br>
+            <p>You can also add marks of multiple subjects at once.</p>
+			</ol>
+			<hr>
+            </section>
+            
+             <section id="Transport">
+              <h4><strong>14)  Transport:</strong></h4>
+             <p>Here it display means of transport for student like bus and driver of each route.</p>
+            <img alt="display content of the transport " src="images/screenshot/transport-list.png">
+				<ol>
+            <h5><strong><li> Add Transport:</li></strong></h5> 
+            <img alt="display content of the manage marks " src="images/screenshot/add-transport.png"><br><br>
+            <p>If you want to edit transport details then it can be done by just clicking on edit link from transport list.</p>
+			</ol>
+			<hr>
+            </section>
+            
+			<section id="Notice">
+            <h4><strong>15) Notice:</strong></h4>
+            <p>Here You can see and manage list of Event ot notice for teacher, student and all. We have provided date range in notice segment so this can also be used as event calendar</p>
+            
+            <img alt="display content of the notice " src="images/screenshot/notice-list.png">
+            <ol>
+            <h5><strong><li> Add Notice:</li></strong></h5> 
+            <img alt="display " src="images/screenshot/add-notice.png"><br><br>
+            <ul>
+				<li><strong>Notice Title</strong>: Enter title for notice.</li>
+				<li><strong>Notice Start Date</strong>: Enter start Date for notice.</li>
+				<li><strong>Notice End date</strong>: Enter Date for notice end.</li>
+				<li><strong>Notice For</strong>: Select Intended audience for notice like General(All), students, teachers or parents.</li>
+				<li><strong>Message Sent</strong>: If You want to sent a message then select this checkbox.</li>
+				<li><strong>SMS Text</strong>: If message sent than this textarea diaply.Here enter message text.</li>
+			
+			</ul>
+			</ol>
+			
+			
+			<hr>
+            </section>
+			
+            
+             <section id="Message">
+            <h3><strong>16)  Message:</strong></h3>
+            <p>All received messages are stored and shown in Inbox.</p>
+            
+            <img alt="display content of the message " src="images/screenshot/inbox-message.png">
+            <ol>
+            <h5><strong><li> Compose:</li></strong></h5> 
+			<p>Here if you want to send message to any group then you can send from here.</p>
+            <img alt="display " src="images/screenshot/copose-message.png"><br><br>
+            <ul>
+				<li><strong>Message To</strong>: Select user group which you want to send message.</li>
+				<li><strong>Subject</strong>: Enter subject for message.</li>
+				<li><strong>Comment</strong>: Enter Actual message details here.</li>
+				<li><strong>Send SMS</strong>: If you want to also send sms to all above selected receiver then click on checkbox and write sms text.</li>
+				
+			
+			</ul>
+			</ol>
+			
+			<hr>
+            </section>
+            
+             <section id="Hall">
+            <h4><strong>17)  Hall:</strong></h4>
+            <p>Here it displays all Information about hall; such as name of hall, hall number, capacity of hall etc.</p>
+            
+            <img alt="display content of the hall " src="images/screenshot/hall-list.png">
+            <hr>
+            </section>	
+            
+             <section id="Payment">
+            <h4><strong>18) Payment:</strong></h4>
+            <p>Display all details about student fees and other payment information.</p>
+            
+            <img alt="display content of the payment " src="images/screenshot/payment-list.png"><br><br>
+			<h5><strong><li>Income List:</li></strong></h5>
+			 <p>You can add a Income and view complete list of all Income.</p>
+			<img alt="Diagnosis Report" src="images/screenshot/income-list.png"><br><br>
+			 <ol>
+			<h5><strong><li>Add Income:</li></strong></h5>
+            <img alt="Diagnosis Report" src="images/screenshot/add-income.png"><br><br>
+					<p>Must be fill all required fields in add Income form for add new Income. </p>
+					<ul>
+						<li><strong>Class</strong>: Select class.</li>
+						<li><strong>Student</strong>: Select student for invoice.</li>
+						<li><strong>Status</strong>: select status of invoice payment method.</li>	
+						<li><strong>Date</strong>: Enter date of invoice.</li>	
+						<li><strong>Income Entry</strong>: Enter income entry and also enter total amount of that entry.
+						<li><strong>Add Income Entry</strong>: If you want to add other entry then click on <strong>Add Income Entry</strong> button.</li>
+						</li>	
+					</ul></ol>
+			<h5><strong><li>Expense List:</li></strong></h5>
+			 <p>You can add a Expense and view complete list of all Expense.</p>
+			<img alt="Expense" src="images/screenshot/expence-list.png"><br><br>
+			 <ol>
+			<h5><strong><li>Add Expense:</li></strong></h5>
+            <img alt="Expense" src="images/screenshot/add-expence.png"><br><br>
+				<p>Must be fill all required fields in add Expense form for add new Expense.</p>
+					<ul>
+						<li><strong>Supplier Name</strong>: Enter supplier name.</li>
+						<li><strong>Status</strong>: select status of expense payment method.</li>	
+						<li><strong>Date</strong>: Enter date of expense.</li>	
+						<li><strong>Expense Entry</strong>: Enter Expense entry and also enter total amount of that entry.
+						<li><strong>Add Expense Entry</strong>: If you want to add other entry then click on <strong>Add Expense Entry</strong> button.</li>
+						</li>	
+					</ul>
+						</ol>
+            <hr>
+            </section>
+            
+            <section id="Holiday">
+            <h4><strong>19) Holiday:</strong></h4>
+            <p>Display inforamtion about all holiday in this year. From here you can also edit holidays for year.</p>
+            
+            <img alt="display content of the holiday " src="images/screenshot/holiday-list.png">
+            <hr>
+            </section>
+			
+			<section id="report">
+            <h4><strong>20) Reports:</strong></h4>
+            <p>Generate different types of report to get insight of student and teacher performance.</p>
+            <ol>
+            <h5><strong><li> Student Failure Report:</li></strong></h5> 
+			<p>Generate failed Vs passed student for selected exam and for selected class.</p>
+            <img alt="display " src="images/screenshot/student-fail-report.png"><br><br>
+					<p>To generate report you just select exam and class and click on Go button</p>
+				
+			<h5><strong><li> Attendance Report:</li></strong></h5> 
+			<p>It shows report of student attendance.</p>
+            <img alt="display " src="images/screenshot/attendence-report.png"><br><br>
+					<p>To generate report select date range and it will generate report for each class</p>
+					
+			<h5><strong><li> Teacher Performance Report:</li></strong></h5> 
+			<p>Show how teacher has performed in school. If a teacher has maximum failure of student then its performance is low.</p>
+            <img alt="display " src="images/screenshot/teacher-perfomence-report.png"><br><br>
+					<p>To generate report just click on tab.</p>		
+			<h5><strong><li> Fee Payment Report:</li></strong></h5> 
+			<p>Show fee payment report in school. Here you can generate deferent reports of fee payment. Like Not Paid, Partially Paid, Full Paid.</p>
+            <img alt="display " src="images/screenshot/fee-payment-report.png"><br><br>
+					<p>To generate report select all criteria and click on <strong>Go</strong> button.</p>	
+			<h5><strong><li> Result Report:</li></strong></h5> 
+			<p>Show student result report in school. Here you can generate class wise or section wise reports.</p>
+            <img alt="display " src="images/screenshot/result-report.png"><br><br>
+					<p>To generate report select all criteria and click on <strong>Go</strong> button.</p>			
+							
+				</ol>
+            
+            <hr>
+            </section>
+            
+			<section id="Migration">
+            <h4><strong>21) Migration:</strong></h4>
+            <p>After year completion you can migrate students from one class to other class.</p>
+            <img alt="display content of the migration " src="images/screenshot/migration-view.png"><br><br>
+            <ul>
+				<li><strong>Select current class</strong>: Select students current class.</li>
+				<li><strong>Select Next class</strong>: Select students Next class.</li>
+				<li><strong>Select Exam</strong>: Select exam for which you want to migrate students.</li>
+				<li><strong>Passing Marks</strong>: Set passing marks based on which migration will be performed. Student below passing marke will not be migrated to next class.</li>
+			</ul>
+			<hr>
+            </section>
+            <section id="sms_settion">
+            <h4><strong>22) SMS Setting:</strong></h4>
+            <h5><strong> 1) Clickatell Setting</strong> </h5>
+            <img alt="display content of the clickatell " src="images/screenshot/clickatellsetting.png"><br><br>
+            <ul>
+				<li><strong>Select Message Service</strong>: Clickatell.</li>
+				<li><strong>Username</strong>: Eneter Clickatell Username.</li>
+				<li><strong>Password</strong>: Eneter Clickatell Password.</li>
+				<li><strong>API Key</strong>: Eneter Clickatell API Key.</li>
+			</ul>
+			<h5><strong> 2) Twilio Setting</strong> </h5>
+            <img alt="display content of the clickatell " src="images/screenshot/twiliosetting.png"><br><br>
+            <ul>
+				<li><strong>Select Message Service</strong>: Twilio.</li>
+				<li><strong>Account SID</strong>: Eneter Twilio SID.</li>
+				<li><strong>Auth Token</strong>: Eneter Twilio Token.</li>
+				<li><strong>From Number</strong>: Eneter Twilio From Number.</li>
+			</ul>
+			<hr>
+            </section>
+			
+			 <section id="fees_payment">
+            <h4><strong>23) Fee Payment:</strong></h4>
+            <h5><strong> 1) Fees Type List</strong> </h5>
+            <img alt="display content of Fees Type List " src="images/screenshot/fee-type-list.png"><br><br>
+            <p>Here we have list out all types of fees in school. Like each class of first term fee.</p>
+			
+			<h5><strong> 2) Add Fees Type</strong> </h5>
+            <img alt="display content of add fee type" src="images/screenshot/add-fee-type.png"><br><br>
+            <ul>
+				<li><strong>Select Fee Type</strong>: Select Fee type from list. If not then just click  on <strong>Add or Remove</strong> button and add fee type label</li>
+				<li><strong>Select Class</strong>: Select class for add new fee type.</li>
+				<li><strong>Amount</strong>: Eneter amount for that fee type.</li>
+				<li><strong>Description</strong>: Eneter description for that fee type.</li>
+			</ul>
+			<h5><strong> 3) Fees List</strong> </h5>
+            <img alt="display content of Fees List " src="images/screenshot/fees-list.png"><br><br>
+            <p>Here list out all students fees in school with payment status. From here can also pay that fees and also can view that fee payment invoice.</p>
+			 <ul>
+				<li><strong>Pay</strong>: admin can also pay that fees. For that just click on Pay Button</li>
+				<img alt="display content of Fees" src="images/screenshot/pay-fee.png"><br><br>
+				<ol>	
+					<li><strong>Paid Amount</strong>: Enter fees amount.</li>
+					<li><strong>Payment By</strong>: Select payment method.</li>
+				</ol>
+				<li><strong>View</strong>: admin can also view invoice of fees payment. For that just click on View Button.</li>
+				<img alt="display content of Fees" src="images/screenshot/feepayment-bill.png"><br><br>
+			</ul>
+			
+			<h5><strong> 4) Generate Invoice</strong> </h5>
+            <img alt="display content of invoice" src="images/screenshot/add-fee-of-class.png"><br><br>
+            <ul>
+				<li><strong>Select Class</strong>: Select for that you want to add invoce</li>
+				<li><strong>Select Fee Type</strong>: Select fee type.</li>
+				<li><strong>Amount</strong>: Amount will appear autometically of you have selected fee type.</li>
+				<li><strong>Description</strong>: Eneter description for that fee type.</li>
+				<li><strong>Year</strong>: Select year for that invoice.</li>
+				<li><strong>Enable Send Mail To Parents</strong>: Enable it if you want to send mail to parents.</li>
+			</ul>
+			<hr>
+            </section>
+			<section id="library">
+            <h4><strong>24) Library:</strong></h4>
+            <h5><strong> 1) Member List</strong> </h5>
+            <img alt="display content of Member List " src="images/screenshot/lib-memberlist.png"><br><br>
+            <p>Here we have list out all member students in school.</p>
+				<ul>
+				<li><strong>View</strong>: For view the library history of that member click on <strong> View</strong> button.</li>
+				<img alt="display content of view library history" src="images/screenshot/lib-view-libhistory.png"><br><br>
+				<li><strong>Accept Returns</strong>: For return or submit book at library click on <strong> Accept Returns</strong> button.</li>
+				<img alt="display content of view library history" src="images/screenshot/lib-return-book.png"><br><br>
+				<p>Here for submit book click on that checkbox and enter fine if overdue on that book. After ther just click on <strong>Submit Book</strong>.</p>
+			</ul>
+			
+			 <h5><strong> 2) Book List</strong> </h5>
+            <img alt="display content of book List " src="images/screenshot/lib-book-list.png"><br><br>
+            <p>Here we list out all books availabe in library.</p>
+			
+			<h5><strong> 3) Add Book</strong> </h5>
+            <img alt="display content of add book" src="images/screenshot/lib-add-book.png"><br><br>
+            <ul>
+				<li><strong>ISBN</strong>: Enter ISBN(International Standard Book Number).</li>
+				<li><strong>Select Book Category</strong>: Select book category from the list. If not that book category not in list then click on <strong>Add Or Remove</strong> button and add new category.</li>
+				<li><strong>Book Name</strong>: Eneter book name.</li>
+				<li><strong>Author Name</strong>: Eneter book author name.</li>
+				<li><strong>Rack Location</strong>: Select rack location from the list. Where you want keep this book.</li>
+				<li><strong>Price</strong>: Eneter price of this book.</li>
+				<li><strong>Quantity</strong>: Eneter quantity of this book.</li>
+				<li><strong>Description</strong>: Eneter description of this book.</li>
+			</ul>
+			<h5><strong> 4) Issue List</strong></h5>
+            <img alt="display content of Fees List" src="images/screenshot/lib-issue-booklist.png"><br><br>
+            <p>Here list out all entries of book issue to the members.</p>
+			
+			<h5><strong> 5) Issue Book</strong> </h5>
+            <img alt="display content of invoice" src="images/screenshot/lib-issue-book.png"><br><br>
+            <ul>
+				<li><strong>Select Class</strong>: select class for member of that class.</li>
+				<li><strong>Student</strong>: Select student for issue for issue book to him.</li>
+				<li><strong>Issue Date</strong>: Select book issue date.</li>
+				<li><strong>Select Period</strong>: Select period for how many day's you want to keep that book.</li>
+				<li><strong>Return Date</strong>: Return date automatically display when you select period.</li>
+				<li><strong>Select Book Category</strong>: Select book category from the list for issue book list of that category.</li>
+				<li><strong>Book Name</strong>: Select books you want to issue to member.</li>
+			</ul>
+			<hr>
+            </section>
+			<section id="mail-template">
+            <h4><strong>25) Email Template:</strong></h4>
+            <img alt="display email template settings" src="images/screenshot/email-templates.png"><br><br>
+            <p>Here we have created email template for student register mail, student approve mail and Fees alert mail. So that you can also change this template.</p>
+			</section>
+			<!--<section id="infographic">	
+            <h4><strong>26) Show Infographic:</strong></h4>
+            <img alt="display infographic settings" src="images/screenshot/infographic.png"><br><br>
+            <p>Here we have list out modules of frontend user dashboard. So now you just enable for display that module on dashboard.</p>
+			</section>-->
+			<section id="access-right">
+            <h4><strong>26) Access Right Settings:</strong></h4>
+            <img alt="display content of Member List " src="images/screenshot/access-rights.png"><br><br>
+            <p>Here we have list out all the frontend side menu list and all frontend user types. So now you can also give access rights to the user from here in school.</p>
+			<h5><strong> Teacher Access Right</strong> </h5>
+            <img alt="display content of invoice" src="images/screenshot/teacher-access-right.png"><br><br>
+			 <p>Now you can also give more access rights to the teacher from here in school.</p>
+			</section>
+			
+		  </section>
+          
+         <section id="student_view">
+			<h3><strong>E)  Student View:</strong></h3>
+			
+			<section id="student-dashboard">
+            
+            <p>Click on <strong>Dashboard</strong> and student can see student side dashboard.</p> 
+            <img alt="" src="images/student/student-dashboard.png"><br><br>           
+           
+             <hr>
+        </section>
+			<section id="student-list">
+            <h4><strong>1) Student:</strong></h4>
+            <p>Click on <strong>Student</strong> and a student can see complete list of other students in same class.</p> 
+            <img alt="" src="images/student/student-list.png"><br><br>           
+			<p>Here student can see just own results and parent. Once student can't see other student's results and parent. </p>
+             <hr>
+        </section>
+			
+			<section id="student-calssroutine">
+            <h4><strong>2) Class Routine:</strong></h4>
+            <p>Click on <strong>Class Routine</strong> and student can see own class routine.</p> 
+            <img alt="" src="images/student/student-class-routine.png"> <br><br>          
+			<p>Here student can just see own class routine. </p>
+             <hr>
+        </section>
+		
+			<section id="student-profilepage">
+            <h4><strong>3) Account:</strong></h4>
+            <p>Click on <strong>Account</strong> and student can see own profile page.</p> 
+            <img alt="" src="images/student/student-profile-page.png"><br><br>           
+			<p>Here student can also edit own profile. </p>
+             <hr>
+        </section>
+		</section>
+
+		 <section id="parent_view">
+			<h3><strong>F)  Parent View:</strong></h3>
+			<p><strong>Dashboard:</strong> Parent side dashboard view.</p>
+			<img alt="Install plugin" src="images/parent/dashboard.png">
+			<hr>
+			
+			
+			<section id="parent-child">
+            <h4><strong>1) Child:</strong></h4>
+            <p>Click on <strong>child</strong> and parent can see their child/children in same school.</p> 
+            <img alt="" src="images/parent/child.png"><br><br>           
+             <hr>
+        </section>
+			
+			<section id="parent-classroutine">
+            <h4><strong>2) Class routine:</strong></h4>
+            <p>Click on <strong>Class route</strong> and parent can see class routine.</p> 
+            <img alt="" src="images/parent/class_route.png"><br><br>           
+             <hr>
+        </section>
+			
+			<section id="parent-account">
+            <h4><strong>3) Account:</strong></h4>
+            <p>Click on <strong>Account</strong> and parent can see own profile page.</p> 
+            <img alt="" src="images/parent/account.png"><br><br>           
+			<p>Here parent can see own children and also  edit own profile.</p>
+             <hr>
+        </section>
+		<section id="parent-account">
+            <h4><strong>4) Fee Payment:</strong></h4>
+            <p>Click on <strong>Fee Payment</strong> and parent can see own childs fee payment List.</p> 
+            <img alt="" src="images/parent/child-fee-paymentlist.png"><br><br>           
+			<p>Here parent can see own childrens fee list with status of payment.</p>
+			<p>Here parent can pay that fees. For that just click on <strong>Pay</strong> button.</p>
+			<img alt="" src="images/parent/pay-fee.png"><br><br> 
+			<p>Enter fee amount you want to pay. Select payment type which through you want to pay fee.</p>
+			<p>Parent can also view the fee payment slip and payment history by click on <strong>View</strong> button.</p>
+			<img alt="" src="images/parent/feepayment-bill.png"><br><br> 
+			
+             <hr>
+        </section>
+			
+		</section>
+		
+		
+		
+		
+		
+			 <section id="teacher_view">
+				 <h3><strong>G)  Teacher View:</strong></h3>
+				 <p><strong>Dashboard:</strong> Teacher side dashboard view.</p>
+				<img alt="Install plugin" src="images/teacher/dashboard.png">
+            <hr>
+			</section>
+		<section id="teacher_student">
+            <h4><strong>1) Student List:</strong></h4>
+            <p>Click on <strong>Student</strong> and you can see all Student list and view students result and parents.</p>
+            <img alt="" src="images/teacher/student.png">           
+           
+             <hr>
+        </section>
+		<section id="teacher_class_route">
+            <h4><strong>2) Class Route:</strong></h4>
+            <p>Teacher see all class route.</p>
+            <img alt="" src="images/teacher/class_route.png">           
+           
+             <hr>
+        </section>
+		<section id="teacher_manage_marks">
+            <h4><strong>3) Manage Marks: </strong></h4>
+            <p>Teacher can manage all students marks.</p>
+            <img alt="" src="images/teacher/manage_marks.png">  <br><br>         
+			<h5><strong> 1) Export marks</strong> </h5>
+            <img alt="display content of export marks " src="images/screenshot/export-marks.png"><br><br>
+            <p>For export whole class of students marks. Select exam and class and just click on <strong>Export Marks</strong> button.</p>
+			<h5><strong> 2) Add Multiple Subject Marks</strong> </h5>
+            
+            <p>Teacher can also add multiple subject marks at once. For view Screenshot <a href="#add_multiple_marks">Click here</a>.</p>
+             <hr>
+        </section>
+		
+		<section id="teacher_account">
+            <h4><strong>4) View Attendance: </strong></h4>
+            <p>Teacher can view student attendance by selecting date period.</p>
+            <img alt="" src="images/teacher/attendance.png">           
+           
+             <hr>
+        </section>
+		
+		<section id="teacher_account">
+            <h4><strong>5) Account: </strong></h4>
+            <p>Teacher can manage their profile and change password.</p>
+            <img alt="" src="images/teacher/account.png">           
+           
+             <hr>
+        </section>
+		 <section id="supportstaff_view">
+				 <h3><strong>H)  Support Staff View:</strong></h3>
+				 <p><strong>Dashboard:</strong> Support Staff dashboard.</p>
+				<img alt="Install plugin" src="images/supportstaff/dashboard.png"><br><br>
+			<section id="payment_list">
+            <h4><strong>1) Payment List: </strong></h4>
+            <p>Support Staff Can be manage all student payment.</p>
+            <img alt="" src="images/supportstaff/payment.png"><br><br>   
+			</section>
+			<h4><strong>2) Fee Payment: </strong></h4>
+            <p>Support Staff can also pay fees of students.</p>
+            <img alt="" src="images/supportstaff/fee-payment.png"> <br><br>  
+			</section>
+			<section id="library">
+            <h4><strong>3) Library: </strong></h4>
+            <p>Support Staff Can be manage library module.</p>
+            <img alt="" src="images/supportstaff/lib-memberlist.png"> <br><br>  
+			</section>
+            <hr>
+			</section>
+		        
+           
+            
+        
+        <section id="fronted-login">
+            <h3><strong>I) Fronted Login Page : </strong></h3>
+            <p>Once install this plugin,Plugin create School Management Login Page and You can simply  create menu link.</p>
+             <img alt="" src="images/screenshot/loginpage.png"> <br><br>
+			<h4><strong>1) Student Registration Page  </strong></h4>
+            <p>For create student registration page you need to simply create menu link.</p>
+             <img alt="" src="images/front-end side/create-registration-page.png"> <br><br> 
+			<h4><strong>2) Frontend Student Registration Page  </strong></h4>
+            <p>When you install plugin registration page will create and set in manu this page on frontend side display like bellow.</p>
+             <img alt="" src="images/front-end side/registration-page.png">  
+           <hr>
+        </section>
+        
+          <section id="FAQ">
+          <h3><strong>J) FAQ</strong></h3>
+          	<p><strong>1) Don't See School Management Login Page in page listing.</strong></p>
+          	<p>Don't worry, You can create login form anywhere of your frontend page. you can add login form of two ways. </p>
+            <ol>
+            	<li>By using shortcode [smgt_login] of anywhere at any page</li>
+                <li>Using do_shortcode("[smgt_login]") at template page</li>
+            </ol>   
+			<p>You can also create registration page form anywhere of your frontend side. you can add registration form of two ways. </p>
+            <ol>
+            	<li>By using shortcode [smgt_student_registration] of anywhere at any page</li>
+                <li>Using do_shortcode("[smgt_student_registration]") at template page</li>
+            </ol>   
+          	<p>If you want to have any paid customization as your requirement in this plugin you can contact us on <a href="">sales@mojoomla.com</a>.</p>
+            <hr>
+          </section>
+		  <section id="setting-up-Language">
+          	<h3><strong>K) Setting Up Language</strong></h3>
+          	<p>School Management System Plugin is translation ready meaning you can edit the po files by which you can translate the text to any language.</p>
+				The steps to do the translation are as follows. For eg let us consider translation to french.
+					<ol>
+                         <li>Download and install <strong>Poedit</strong>.</li>
+                        <li>Open the file school-management / <strong>languages</strong> folder &rarr; school-mgt-fr_FR.po using <strong>Poedit</strong> .</li>
+                        <li>Choose the Source text and set its corresponding French text in Translation Text Area.</li>
+                        <li>Save the changes.</li>
+                        <li>For change language you need to go in Settings menu and select <strong>Site Language</strong> from dropdown .</li> 
+						<img alt="" src="images/screenshot/language-settings.png">  
+                    </ol>
+          </section>
+         
+                    <!-- start-footer-->
+          <div id="footer"> © 2015 Mojoomla All Rights Reserved. </div>
+          <!-- end-footer -->
+        </section>
+		
+      </div>
+      <!-- end-side-content -->
+    </div>
+    <!-- start-footer-->
+    <div id="footer-sm"> © 2015 Mojoomla All Rights Reserved. </div>
+    <!-- end-footer -->
+    <div class="white-space"></div>
+  </section>
+  <!-- container -->
+  <!-- end-footer -->
+  <span id="scroll-top"><a class="scrollup"></a></span> </div>
+<!-- end-wrap -->
+<!-- End Document
+         ================================================== -->
+<script src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/doubletaptogo.js" ></script>
+<script type="text/javascript" src="js/cube-custom.js" ></script>
+
+
+</body>
+</html>

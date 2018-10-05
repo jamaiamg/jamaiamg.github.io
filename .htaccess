@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /jamai/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /jamai/index.php [L]
+</IfModule>
+
+# END WordPress
+	# WP Increse Maximum Execution Time
+	<IfModule mod_php5.c>
+		php_value max_execution_time 300
+	</IfModule>

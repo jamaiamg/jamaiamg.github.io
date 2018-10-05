@@ -1,0 +1,331 @@
+# Translation of Themes - Fashify in Bengali
+# This file is distributed under the same license as the Themes - Fashify package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-31 22:14:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: bn\n"
+"Project-Id-Version: Themes - Fashify\n"
+
+#. Description of the plugin/theme
+msgid "A fashionable WordPress blog theme."
+msgstr "একটি রুচিসম্মত ওয়ার্ডপ্রেস ব্লগ থিম।"
+
+#. Theme Name of the plugin/theme
+msgid "Fashify"
+msgstr "Fashify"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "পূর্ণ প্রস্থ পাতা"
+
+#: template-parts/content-single.php:41
+msgid "Continue Reading"
+msgstr "পড়া চালিয়ে যান"
+
+#: template-parts/content-single.php:39
+msgid "Next article"
+msgstr "পরবর্তী অনুচ্ছেদ"
+
+#: template-parts/content-single.php:38
+msgid "Previous article"
+msgstr "পূর্ববর্তী অনুচ্ছেদ"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:33
+msgid "Edit %s"
+msgstr "সম্পাদনা %s"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:30
+msgid "Pages:"
+msgstr "পাতাসমূহ:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "মনে হচ্ছে আপনি যেটি খুঁজছেন সেটি আমরা খুঁজে পাইনি। সম্ভবত অনুসন্ধানে পাওয়া যাবে।"
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "দুঃখিত, কোনকিছু আপনার অনুসন্ধানকৃত বিষয়ের সাথে মিলেনি। অনুগ্রহ করে কিছু ভিন্ন কীওয়ার্ড দ্বারা আবার চেষ্টা করুন।"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "আপনার প্রথম প্রকাশনা প্রকাশ করতে প্রস্তুত? <a href=\"%1$s\">এখান থেকে শুরু করুন</a>।"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "কিছুই খুঁজে পাওয়া যায়নি"
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "অনুসন্ধানের ফলাফল: %s এর"
+
+#: inc/widgets.php:103
+msgid "ASC"
+msgstr "উচ্চক্রমে"
+
+#: inc/widgets.php:102
+msgid "DESC"
+msgstr "নিম্নক্রমে"
+
+#: inc/widgets.php:100
+msgid "Order"
+msgstr "ক্রম"
+
+#: inc/widgets.php:97
+msgid "Random"
+msgstr "এলোমেলো"
+
+#: inc/widgets.php:96
+msgid "Comment count"
+msgstr "মন্তব্য গণনা"
+
+#: inc/widgets.php:94
+msgid "Date"
+msgstr "তারিখ"
+
+#: inc/widgets.php:92
+msgid "Order by"
+msgstr "ক্রমানুসারে"
+
+#: inc/widgets.php:87
+msgid "Number of photos"
+msgstr "ছবির সংখ্যা"
+
+#: inc/widgets.php:82 inc/widgets.php:95
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: inc/widgets.php:71
+msgid "Recent Posts"
+msgstr "সাম্প্রতিক প্রকাশনাসমূহ"
+
+#: inc/widgets.php:13
+msgid "Displays custom posts."
+msgstr "কাস্টম প্রকাশনাসমূহ প্রদর্শন করে।"
+
+#: inc/widgets.php:10
+msgid "Fashify Posts"
+msgstr "Fashify প্রকাশনাসমূহ"
+
+#: inc/template-tags.php:239
+msgid "Fashify Theme by %1$s"
+msgstr "Fashify থিম %1$s কর্তৃক"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:183
+msgid "%1$s at %2$s"
+msgstr "%1$s তারিখ %2$s টায়"
+
+#: inc/template-tags.php:179
+msgid "says:"
+msgstr "বলে:"
+
+#: inc/template-tags.php:174
+msgid "Your comment is awaiting moderation."
+msgstr "আপনার মন্তব্য মধ্যস্থতার জন্য প্রতীক্ষমাণ রয়েছে।"
+
+#: inc/template-tags.php:160
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: inc/template-tags.php:160
+msgid "Pingback:"
+msgstr "পিংব্যাক:"
+
+#: inc/template-tags.php:102
+msgid "Tagged in"
+msgstr "ট্যাগকৃত"
+
+#: inc/template-tags.php:96
+msgid "Posted in"
+msgstr "প্রকাশিত হয়েছে"
+
+#: inc/template-tags.php:38 inc/template-tags.php:75
+msgid " in %1$s"
+msgstr " %1$s তে"
+
+#: inc/template-tags.php:37 inc/template-tags.php:74 inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:33 inc/template-tags.php:70
+msgctxt "post author"
+msgid "Posted by %s"
+msgstr "%s কর্তৃক প্রকাশিত"
+
+#: inc/template-tags.php:28 inc/template-tags.php:65
+msgctxt "post date"
+msgid " on %s"
+msgstr " %s তারিখে"
+
+#: inc/extras.php:76
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: inc/extras.php:75
+msgid "Search for:"
+msgstr "অনুসন্ধান:"
+
+#: inc/customizer.php:159
+msgid "Secondary Color"
+msgstr "আনুষঙ্গিক রঙ"
+
+#: inc/customizer.php:148
+msgid "Primary Color"
+msgstr "মৌলিক রঙ"
+
+#: inc/customizer.php:136
+msgid "Enter number post display on Staff section."
+msgstr "কর্মী বিভাগে প্রদর্শিত প্রকাশনার সংখ্যা প্রবেশ করান।"
+
+#: inc/customizer.php:133
+msgid "Number:"
+msgstr "সংখ্যা:"
+
+#: inc/customizer.php:117
+msgid "Staff Category:"
+msgstr "কর্মী বিভাগ:"
+
+#: inc/customizer.php:102
+msgid "Show/Hide the staff pick"
+msgstr "প্রদর্শন/লুকান কর্মীকর্তৃক বাছাইকৃত"
+
+#: inc/customizer.php:87 template-parts/content-staff.php:14
+msgid "Staff Picks"
+msgstr "কর্মীকর্তৃক বাছাইকৃত"
+
+#: inc/customizer.php:76
+msgid "List"
+msgstr "তালিকা"
+
+#: inc/customizer.php:75
+msgid "Grid"
+msgstr "গ্রিড"
+
+#: inc/customizer.php:74
+msgid "Default"
+msgstr "পূর্বনির্ধারিত"
+
+#: inc/customizer.php:70
+msgid "Archive/Search Layout:"
+msgstr "আর্কাইভ/অনুসন্ধান নকশা:"
+
+#: inc/customizer.php:56
+msgid "Right Sidebar"
+msgstr "ডান সাইডবার"
+
+#: inc/customizer.php:55
+msgid "Left Sidebar"
+msgstr "বাম সাইডবার"
+
+#: inc/customizer.php:51
+msgid "Site Layout"
+msgstr "সাইটের নকশা"
+
+#: inc/customizer.php:37
+msgid "Global"
+msgstr "সার্বজনীন"
+
+#: inc/customizer.php:28
+msgid "Theme Options"
+msgstr "থিম আপশনস"
+
+#: header.php:67
+msgid "Menu"
+msgstr "মেনু"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "বিষয়বস্তুতে এড়িয়ে যান"
+
+#: functions.php:135
+msgid "Footer"
+msgstr "ফুটার"
+
+#: functions.php:127 functions.php:137
+msgid "Add widgets here."
+msgstr "এখানে উইজেট যুক্ত করুন।"
+
+#: functions.php:125
+msgid "Sidebar"
+msgstr "সাইডবার"
+
+#: functions.php:104
+msgctxt "libre_franklin font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:62
+msgid "Social Links"
+msgstr "সামাজিক মাধ্যম লিঙ্ক"
+
+#: functions.php:61
+msgid "Primary"
+msgstr "প্রধান"
+
+#: footer.php:42
+msgid "Y"
+msgstr "Y"
+
+#: footer.php:42
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr "কপিরাইট &copy; %1$s %2$s. সর্বস্বত্ব সংরক্ষিত।"
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "মন্তব্য বন্ধ করা হয়েছে।"
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "নতুন মন্তব্য"
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "পুরাতন মন্তব্য"
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "মন্তব্য ন্যাভিগেশন"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ভাবনা &ldquo;%2$s&rdquo; এ"
+msgstr[1] "%1$s ভাবনাসমূহ &ldquo;%2$s&rdquo; এ"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "একটি ভাবনা &ldquo;%s&rdquo; এ"
+
+#: archive.php:68 home.php:99 search.php:66
+msgid "Page"
+msgstr "পাতা"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "দুঃখিত! পাতাটি খুঁজে পাওয়া যায়নি।"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "মনে হচ্ছে এই স্থানে কিছুই পাওয়া যায়নি। নিচের লিঙ্ক বা অনুসন্ধান এর মধ্যে একবার চেষ্টা করুন?"
+
+#. Author URI of the plugin/theme
+msgid "https://www.famethemes.com"
+msgstr "https://www.famethemes.com"
+
+#. Author of the plugin/theme
+msgid "FameThemes"
+msgstr "FameThemes"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.famethemes.com/themes/fashify/"
+msgstr "https://www.famethemes.com/themes/fashify/"

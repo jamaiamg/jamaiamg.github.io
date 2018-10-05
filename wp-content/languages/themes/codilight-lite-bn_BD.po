@@ -1,0 +1,806 @@
+# Translation of Themes - Codilight Lite in Bengali
+# This file is distributed under the same license as the Themes - Codilight Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-01 01:44:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: bn\n"
+"Project-Id-Version: Themes - Codilight Lite\n"
+
+#. Theme Name of the plugin/theme
+msgid "Codilight Lite"
+msgstr "Codilight Lite"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "প্লাগিন ইন্সটল হচ্ছে %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name.
+#: inc/tgm.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s সফলভাবে ইন্সটল হয়েছে।"
+
+#: inc/tgm.php:3509 inc/tgm.php:3517
+msgid "Hide Details"
+msgstr "বিস্তারিত লুকান"
+
+#: inc/tgm.php:3509 inc/tgm.php:3517
+msgid "Show Details"
+msgstr "বিস্তারিত প্রদর্শন করুন"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "ইন্সটলেশনের সময় ত্রুটি সংঘটিত হয়েছে %1$s: <strong>%2$s</strong>."
+
+#: inc/tgm.php:2553
+msgid "Version"
+msgstr "সংস্করণ"
+
+#: inc/tgm.php:2548
+msgid "Source"
+msgstr "উৎস"
+
+#: inc/tgm.php:2547
+msgid "Plugin"
+msgstr "প্লাগিন"
+
+#: inc/tgm.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "অজানা"
+
+#: inc/tgm.php:2490
+msgid "Installed version:"
+msgstr "ইন্সটলকৃত সংস্করণ:"
+
+#: inc/tgm.php:2330
+msgid "Requires Update"
+msgstr "হালনাগাদ আবশ্যক"
+
+#: inc/tgm.php:2327
+msgid "Required Update not Available"
+msgstr "আবশ্যক হালনাগাদ পাওয়া যাচ্ছে না"
+
+#: inc/tgm.php:2321
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: inc/tgm.php:2319
+msgid "Installed But Not Activated"
+msgstr "ইন্সটল হয়েছে কিন্তু সক্রিয় হয়নি"
+
+#: inc/tgm.php:2315
+msgid "Not Installed"
+msgstr "ইন্সটল হয়নি"
+
+#: inc/tgm.php:2333
+msgid "Update recommended"
+msgstr "হালনাগাদের সুপারিশ করা হয়েছে"
+
+#: inc/tgm.php:2276
+msgid "Recommended"
+msgstr "সুপারিশকৃত"
+
+#: inc/tgm.php:2273
+msgid "Required"
+msgstr "আবশ্যক"
+
+#: inc/tgm.php:523
+msgid "Update Required"
+msgstr "হালনাগাদ আবশ্যক"
+
+#: inc/tgm.php:395
+msgid "Dismiss this notice"
+msgstr "সতর্কীকরণটি অপসারণ করুন"
+
+#. translators: 1: dashboard link.
+#: inc/tgm.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "সকল প্লাগিনস সফলভাবে ইন্সটল এবং সক্রিয় হয়েছে। %1$s"
+
+#: inc/tgm.php:3518
+msgid "All installations have been completed."
+msgstr "সকল ইন্সটল সম্পন্ন হয়েছে।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "প্লাগিন ইন্সটল এবং সক্রিয় হচ্ছে %1$s (%2$d/%3$d)"
+
+#: inc/tgm.php:3510
+msgid "All installations and activations have been completed."
+msgstr "সকল ইন্সটল এবং সক্রিয়করন সম্পন্ন হয়েছে।"
+
+#. translators: 1: plugin name.
+#: inc/tgm.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s সফলভাবে ইন্সটল এবং সক্রিয় হয়েছে।"
+
+#. translators: 1: plugin name.
+#: inc/tgm.php:3503
+msgid "The installation of %1$s failed."
+msgstr "%1$s ইন্সটল ব্যর্থ হয়েছে।"
+
+#: inc/tgm.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "সক্রিয় করার মত কোনো প্লাগিন এই মূহুর্তে নেই।"
+
+#: inc/tgm.php:3158
+msgid "Plugin activation failed."
+msgstr "প্লাগিন সক্রিয়করণ ব্যর্থ হয়েছে।"
+
+#: inc/tgm.php:2726
+msgid "Activate"
+msgstr "সক্রিয়"
+
+#: inc/tgm.php:2723
+msgid "Update"
+msgstr "হালনাগাদ"
+
+#: inc/tgm.php:2717
+msgid "Install"
+msgstr "ইন্সটল"
+
+#: inc/tgm.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "ইন্সটল করার মত কোনো প্লাগিন এই মূহুর্তে নেই।"
+
+#: inc/tgm.php:2554
+msgid "Status"
+msgstr "অবস্থা"
+
+#: inc/tgm.php:2549
+msgid "Type"
+msgstr "ধরন"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm.php:2603
+msgid "Install %2$s"
+msgstr "ইন্সটল %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm.php:2614
+msgid "Activate %2$s"
+msgstr "সক্রিয় %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm.php:2608
+msgid "Update %2$s"
+msgstr "হালনাগাদ %2$s"
+
+#: inc/tgm.php:2510
+msgid "Available version:"
+msgstr "প্রাপ্য সংস্করণ:"
+
+#: inc/tgm.php:2498
+msgid "Minimum required version:"
+msgstr "নূন্যতম আবশ্যক সংস্করণ:"
+
+#: inc/tgm.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "ইন্সটল, হালনাগাদ অথবা সক্রিয় করার মত কোন প্লাগিন নেই।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "প্লাগিন হালনাগাদ হচ্ছে %1$s (%2$d/%3$d)"
+
+#: inc/tgm.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "কোনো প্লাগিনস সক্রিয় করার জন্য নির্বাচিত করা হয়নি। কোনো পদক্ষেপ গ্রহণ করা হয়নি।"
+
+#: inc/tgm.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "কোনো প্লাগিনস হালনাগাদ করার জন্য নির্বাচিত করা হয়নি। কোনো পদক্ষেপ গ্রহণ করা হয়নি।"
+
+#: inc/tgm.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "হালনাগাদ করার মত কোনো প্লাগিনস এই মূহুর্তে নেই।"
+
+#: inc/tgm.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "কোনো প্লাগিনস ইন্সটল করার জন্য নির্বাচিত করা হয়নি। কোনো পদক্ষেপ গ্রহণ করা হয়নি।"
+
+#: inc/tgm.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "প্লাগিন লেখকের পদোন্নতি বার্তা:"
+
+#: inc/tgm.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "ইন্সটল প্রক্রিয়াটি শুরু হচ্ছে। কিছু হোস্ট-এ এই প্রক্রিয়াটি অল্পক্ষণ সময় নিতে পারে, অনুগ্রহ করে স্থির থাকুন।"
+
+#: inc/tgm.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "ইন্সটল এবং সক্রিয়করণ প্রক্রিয়াটি শুরু হচ্ছে। কিছু হোস্ট-এ এই প্রক্রিয়াটি অল্পক্ষণ সময় নিতে পারে, অনুগ্রহ করে স্থির থাকুন।"
+
+#. translators: 1: number of plugins.
+#: inc/tgm.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "সক্রিয় করতে <span class=\"count\">(%s)</span>"
+msgstr[1] "সক্রিয় করতে <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "হালনাগাদ পাওয়া যাচ্ছে <span class=\"count\">(%s)</span>"
+msgstr[1] "হালনাগাদ পাওয়া যাচ্ছে <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "ইন্সটল করতে <span class=\"count\">(%s)</span>"
+msgstr[1] "ইন্সটল করতে <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "সব <span class=\"count\">(%s)</span>"
+msgstr[1] "সব <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm.php:2298
+msgid "Pre-Packaged"
+msgstr "প্রাক-প্যাকেজ"
+
+#: inc/tgm.php:2295
+msgid "External Source"
+msgstr "বহিরাগত উৎস"
+
+#: inc/tgm.php:2292
+msgid "WordPress Repository"
+msgstr "ওয়ার্ডপ্রেস ভাণ্ডার"
+
+#. translators: %s: version number
+#: inc/tgm.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm.php:1121 inc/tgm.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "এবং"
+
+#: inc/tgm.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "দূরবর্তী প্লাগিন প্যাকেজটিতে একাধিক ফাইল রয়েছে, কিন্তু ফাইলগুলো একটি ফোল্ডারে প্যাকেজ করা নেই।"
+
+#: inc/tgm.php:934 inc/tgm.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "অনুগ্রহ করে প্লাগিন প্রদানকারীর সঙ্গে যোগাযোগ করুন এবং ওয়ার্ডপ্রেসের নির্দেশিকা অনুযায়ী তাদের প্লাগিন প্যাকেজ তৈরী করতে বলুন।"
+
+#: inc/tgm.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "দূরবর্তী প্লাগিন প্যাকেজটিতে আকাঙ্ক্ষিত স্লাগটি অন্তর্ভুক্ত কোনো ফোল্ডার নেই এবং পুনরায় নামকরণ কাজ করেনি।"
+
+#: inc/tgm.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "আপনার থিমের সঙ্গে সামঞ্জস্যপূর্ণ করতে এই প্লাগিনটি হালনাগাদ করা প্রয়োজন।"
+
+#: inc/tgm.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "অনুগ্রহ করে সহযোগিতার জন্য এই সাইটের তত্ত্বাবধায়কের সঙ্গে যোগাযোগ করুন।"
+
+#: inc/tgm.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "এক বা একাধিক প্লাগিনস ইন্সটল, হালনাগাদ অথবা সক্রিয় করা আবশ্যক অথবা সুপারিশ করা হয়েছে।"
+
+#. translators: 1: plugin name.
+#: inc/tgm.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "প্লাগিন সক্রিয় হয়নি। এই থিমের জন্য %s এর একটি উচ্চতর সংস্করণ প্রয়োজন। অনুগ্রহ করে প্লাগিনটি হালনাগাদ করুন।"
+
+#. translators: 1: plugin name.
+#: inc/tgm.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "কোনো পদক্ষেপ গ্রহণ করা হয়নি। %1$s পূর্বেই সক্রিয় ছিলো।"
+
+#: inc/tgm.php:388 inc/tgm.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr "নিম্নোক্ত প্লাগিন সফলভাবে সক্রিয় হয়েছে:"
+
+#: inc/tgm.php:387 inc/tgm.php:3159
+msgid "Plugin activated successfully."
+msgstr "প্লাগিন সফলভাবে সক্রিয় হয়েছে।"
+
+#: inc/tgm.php:386 inc/tgm.php:827 inc/tgm.php:2533 inc/tgm.php:3580
+msgid "Return to the Dashboard"
+msgstr "ড্যাশবোর্ডে ফিরে যান"
+
+#: inc/tgm.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "আবশ্যক প্লাগিনস ইন্সটলারে ফিরে যান"
+
+#: inc/tgm.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "প্লাগিন সক্রিয় করা আরম্ভ করুন"
+msgstr[1] "প্লাগিনস সক্রিয় করা আরম্ভ করুন"
+
+#: inc/tgm.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "প্লাগিন হালনাগাদ করা আরম্ভ করুন"
+msgstr[1] "প্লাগিনস হালনাগাদ করা আরম্ভ করুন"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "প্লাগিন ইন্সটল করা আরম্ভ করুন"
+msgstr[1] "প্লাগিনস ইন্সটল করা আরম্ভ করুন"
+
+#: inc/tgm.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "প্লাগিন API- তে কিছু ভুল হয়েছে।"
+
+#. translators: %s: plugin name.
+#: inc/tgm.php:332
+msgid "Updating Plugin: %s"
+msgstr "প্লাগিন হালনাগাদ হচ্ছে: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm.php:330
+msgid "Installing Plugin: %s"
+msgstr "প্লাগিন ইন্সটল হচ্ছে: %s"
+
+#: inc/tgm.php:328
+msgid "Install Plugins"
+msgstr "প্লাগিনস ইন্সটল করুন"
+
+#: inc/tgm.php:327
+msgid "Install Required Plugins"
+msgstr "আবশ্যক প্লাগিনস ইন্সটল করুন"
+
+#: inc/dashboard.php:114
+msgid "FameThemes Demo Importer"
+msgstr "FameThemes ডেমো আমদানিকারী"
+
+#: inc/dashboard.php:112
+msgid "Hey, you will need to install and activate the %1$s plugin first."
+msgstr "অভিবাদন, আপনাকে আগে %1$s প্লাগিন ইন্সটল এবং সক্রিয় করতে হবে।"
+
+#: inc/dashboard.php:99
+msgid "Active Now"
+msgstr "এখন সক্রিয় করুন"
+
+#: inc/dashboard.php:78
+msgid "Install Now"
+msgstr "এখন ইন্সটল করুন"
+
+#: inc/dashboard.php:55
+msgid "Go To %s Support Forum"
+msgstr "%s সাপোর্ট ফোরামে যান"
+
+#: inc/dashboard.php:30
+msgid "One Click Demo Import"
+msgstr "এক ক্লিকে ডেমো আমদানি"
+
+#: inc/customizer.php:83 inc/customizer.php:97
+msgid "Grid"
+msgstr "গ্রিড"
+
+#: inc/customizer.php:82 inc/customizer.php:96
+msgid "List"
+msgstr "তালিকা"
+
+#: inc/customizer.php:69
+msgid "Right Sidebar"
+msgstr "ডান সাইডবার"
+
+#: inc/customizer.php:68
+msgid "Left Sidebar"
+msgstr "বাম সাইডবার"
+
+#: inc/customizer.php:111
+msgid "Check out <a target=\"_blank\" href=\"https://www.famethemes.com/themes/codilight-lite?utm_source=codilight_lite_customizer&utm_medium=text_link&utm_campaign=codilight_lite#compare\">Codilight Premium</a> version for full control over site color styling!"
+msgstr "সাইটের রুঙ ও শৈলীর পূর্ণ নিয়ন্ত্রণের জন্য <a target=\"_blank\" href=\"https://www.famethemes.com/themes/codilight-lite?utm_source=codilight_lite_customizer&utm_medium=text_link&utm_campaign=codilight_lite#compare\">Codilight Premium</a> চেক করুন!"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "প্রচ্ছদ পাতা"
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth"
+msgstr "পূর্ণ প্রস্থ"
+
+#: template-parts/content-single.php:51
+msgid "Next article"
+msgstr "পরবর্তী অনুচ্ছেদ"
+
+#: template-parts/content-single.php:45
+msgid "Previous article"
+msgstr "পূর্ববর্তী অনুচ্ছেদ"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:32
+msgid "Edit %s"
+msgstr "সম্পাদনা %s"
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:28
+#: template-parts/content.php:34
+msgid "Pages:"
+msgstr "পাতাসমূহ:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "মনে হচ্ছে আপনি যেটি খুঁজছেন সেটি আমরা খুঁজে পাইনি। সম্ভবত অনুসন্ধানে পাওয়া যাবে।"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "দুঃখিত, কোন কিছু আপনার অনুসন্ধানকৃত বিষয়ের সাথে মিলেনি। অনুগ্রহ করে কিছু ভিন্ন কীওয়ার্ড দ্বারা আবার চেষ্টা করুন।"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "আপনার প্রথম প্রকাশনা প্রকাশ করতে প্রস্তুত? <a href=\"%1$s\">এখান থেকে শুরু করুন</a>।"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "কিছুই খুঁজে পাওয়া যায়নি"
+
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr "অনুসন্ধানের ফলাফল: %s এর"
+
+#: inc/widgets/block_4_widget.php:14
+msgid "FT Block 4"
+msgstr "FT ব্লক ৪"
+
+#: inc/widgets/block_3_widget.php:188
+msgid "Block Category:"
+msgstr "ব্লক বিভাগ:"
+
+#: inc/widgets/block_3_widget.php:14
+msgid "FT Block 3"
+msgstr "FT ব্লক ৩"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:27
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "পড়া চালিয়ে যান %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/widgets/block_4_widget.php:13
+msgid "Display a list of popular/lastest posts for use on sidebar."
+msgstr "সাইডবারে ব্যবহারের জন্য জনপ্রিয়/সাম্প্রতিক প্রকাশনার একটি তালিকা প্রদর্শন করুন।"
+
+#: inc/template-tags.php:156
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: inc/widgets/block_1_widget.php:14
+msgid "FT Block 1 - Recent Posts"
+msgstr "FT ব্লক ১ - সাম্প্রতিক প্রকাশনাসমূহ"
+
+#: inc/widgets/block_2_widget.php:14
+msgid "FT Block 2 - Slider"
+msgstr "FT ব্লক ২ - স্লাইডার"
+
+#: inc/widgets/block_2_widget.php:13
+msgid "Slider posts widget for use on homepage."
+msgstr "প্রচ্ছদ পাতায় ব্যবহারের জন্য স্লাইডার প্রকাশনা উইজেট।"
+
+#: inc/widgets/block_1_widget.php:222 inc/widgets/block_2_widget.php:211
+#: inc/widgets/block_3_widget.php:204 inc/widgets/block_4_widget.php:192
+msgid "Order By:"
+msgstr "ক্রমানুসারে:"
+
+#: inc/widgets/block_1_widget.php:219 inc/widgets/block_2_widget.php:208
+#: inc/widgets/block_3_widget.php:201 inc/widgets/block_4_widget.php:189
+msgid "Ignore Sticky Posts"
+msgstr "স্টিকি প্রকাশনা উপেক্ষা করুন"
+
+#: inc/widgets/block_1_widget.php:214 inc/widgets/block_2_widget.php:202
+#: inc/widgets/block_3_widget.php:196 inc/widgets/block_4_widget.php:184
+msgid "Number of posts to show:"
+msgstr "প্রদর্শিত প্রকাশনার সংখ্যা:"
+
+#: inc/widgets/block_1_widget.php:193 inc/widgets/block_2_widget.php:189
+#: inc/widgets/block_3_widget.php:184 inc/widgets/block_4_widget.php:171
+msgid "Widget Title:"
+msgstr "উইজেট শিরোনাম:"
+
+#: inc/widgets/block_1_widget.php:197
+msgid "Posts block layout:"
+msgstr "প্রকাশনা ব্লক নকশা:"
+
+#: inc/widgets/block_2_widget.php:204
+msgid "This widget only show posts has featured image."
+msgstr "এই উইজেটটি শুধুমাত্র ফিচারড ছবি সম্বলিত প্রকাশনাসমূহ প্রদর্শন করে।"
+
+#: inc/widgets/block_3_widget.php:13
+msgid "Display a list of posts based on one parent category."
+msgstr "একটি মূল বিভাগ ভিত্তিক প্রকাশনার একটি তালিকা প্রদর্শন করুন।"
+
+#: inc/widgets/block_1_widget.php:206 inc/widgets/block_2_widget.php:194
+#: inc/widgets/block_4_widget.php:176
+msgid "Multiselect Categories (all by default):"
+msgstr "বহুনির্বাচনী বিভাগসমূহ (পূর্বনির্ধারিত):"
+
+#: inc/widgets/block_1_widget.php:13
+msgid "Display posts with list or grid style for use on homepage."
+msgstr "প্রচ্ছদ পাতায় ব্যবহারের জন্য প্রকাশনার একটি তালিকা অথবা গ্রিড শৈলী প্রদর্শন করে।"
+
+#: inc/template-tags.php:161
+msgid "Your comment is awaiting moderation."
+msgstr "আপনার মন্তব্য মধ্যস্থতার জন্য প্রতীক্ষমাণ রয়েছে।"
+
+#: functions.php:52
+msgid "Footer Menu"
+msgstr "ফুটার মেনু"
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr "প্রধান মেনু"
+
+#: footer.php:34
+msgid "Codilight Theme by %1$s"
+msgstr "Codilight থিম %1$s কর্তৃক"
+
+#: footer.php:32
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr "কপিরাইট &copy; %1$s %2$s. সর্বস্বত্ব সংরক্ষিত।"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "মন্তব্য বন্ধ করা হয়েছে।"
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments"
+msgstr "নতুন মন্তব্য"
+
+#: comments.php:42 comments.php:62
+msgid "Older Comments"
+msgstr "পুরাতন মন্তব্য"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "মন্তব্য ন্যাভিগেশন"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s comments"
+msgstr[0] "১ মন্তব্য"
+msgstr[1] "%1$s মন্তব্যসমূহ"
+
+#: archive.php:55 archive.php:75 category.php:55 category.php:75 index.php:60
+#: index.php:80 search.php:41
+msgid "Page"
+msgstr "পাতা"
+
+#: 404.php:29
+msgid "Latest Posts"
+msgstr "সাম্প্রতিক প্রকাশনাসমূহ"
+
+#: inc/customizer.php:54
+msgid "Site Layout"
+msgstr "সাইটের নকশা"
+
+#: inc/customizer.php:43
+msgid "Your site logo"
+msgstr "আপনার সাইটের লোগো"
+
+#: inc/customizer.php:41
+msgid "Site Logo"
+msgstr "সাইটের লোগো"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:190
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Translators: If there are characters in your language that are not supported
+#. by merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:184
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:139
+msgid "Home 4"
+msgstr "প্রচ্ছদ ৪"
+
+#: functions.php:130
+msgid "Home 3"
+msgstr "প্রচ্ছদ ৩"
+
+#: functions.php:121
+msgid "Home 2"
+msgstr "প্রচ্ছদ ২"
+
+#: functions.php:112
+msgid "Home 1"
+msgstr "প্রচ্ছদ ১"
+
+#: functions.php:101
+msgid "Default Sidebar"
+msgstr "পূর্বনির্ধারিত সাইডবার"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "বিষয়বস্তুতে এড়িয়ে যান"
+
+#: header.php:32
+msgid "Menu"
+msgstr "মেনু"
+
+#: header.php:42
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: inc/customizer.php:64
+msgid "Default Sidebar Position"
+msgstr "পূর্বনির্ধারিত সাইডবারের অবস্থান"
+
+#: inc/extras.php:91
+msgid "Add a menu"
+msgstr "একটি মেনু যুক্ত করুন"
+
+#: inc/dashboard.php:61
+msgid "Theme Screenshot"
+msgstr "থিম স্ক্রিনশট"
+
+#: inc/template-tags.php:147
+msgid "Post author"
+msgstr "প্রকাশনার লেখক"
+
+#: inc/template-tags.php:155
+msgid "Reply"
+msgstr "জবাব"
+
+#: inc/template-tags.php:95
+msgid "Categories"
+msgstr "বিভাগসমূহ"
+
+#: inc/template-tags.php:102
+msgid "Tags"
+msgstr "ট্যাগ"
+
+#: inc/template-tags.php:131
+msgid "Pingback:"
+msgstr "পিংব্যাক:"
+
+#: inc/template-tags.php:131
+msgid "(Edit)"
+msgstr "(সম্পাদনা)"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:153
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:72
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s কর্তৃক"
+
+#: inc/template-tags.php:30
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:26
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#. #-#-#-#-#  codilight-lite.pot (Codilight Lite 1.0.8)  #-#-#-#-#
+#. Author of the plugin/theme
+#: inc/dashboard.php:27
+msgid "FameThemes"
+msgstr "FameThemes"
+
+#. #-#-#-#-#  codilight-lite.pot (Codilight Lite 1.0.8)  #-#-#-#-#
+#. Description of the plugin/theme
+#: inc/dashboard.php:26
+msgid "Codilight Lite is a news magazine style WordPress theme from FameThemes which is a perfect option to create any kind of magazine or blog websites."
+msgstr "Codilight Lite একটি সংবাদ ম্যাগাজিন শৈলীর FameThemes কর্তৃক ওয়ার্ডপ্রেস থিম যা সকল প্রকার ম্যাগাজিন এবং ব্লগ ওয়েবসাইট তৈরীর জন্য যথাযথ পছন্দ।"
+
+#: inc/dashboard.php:25
+msgid "Welcome to %1s - Version %2s"
+msgstr "%1s এ স্বাগতম - সংস্করণ %2s"
+
+#: inc/dashboard.php:9
+msgid "%s"
+msgstr "%s"
+
+#: inc/dashboard.php:9
+msgid "%s Theme Dashboard"
+msgstr "%s থিম ড্যাশবোর্ড"
+
+#: inc/dashboard.php:38
+msgid "Theme Customizer"
+msgstr "থিম কাস্টমাইজার"
+
+#: inc/dashboard.php:41
+msgid "Start Customize"
+msgstr "কাস্টমাইজ শুরু করুন"
+
+#: inc/dashboard.php:45
+msgid "Theme Documentation"
+msgstr "থিম নথিপত্র"
+
+#: inc/dashboard.php:48
+msgid "Online Documentation"
+msgstr "অনলাইন নথিপত্র"
+
+#: inc/dashboard.php:52
+msgid "Having Trouble, Need Support?"
+msgstr "সমস্যায় পড়েছেন, সহযোগিতা প্রয়োজন?"
+
+#: inc/customizer.php:92
+msgid "Archive Page Posts Layout"
+msgstr "আর্কাইভ পাতা প্রকাশনার নকশা"
+
+#: inc/customizer.php:78
+msgid "Front Page Posts Layout"
+msgstr "সামনের পাতা প্রকাশনার নকশা"
+
+#: 404.php:24
+msgid "Maybe try a search?"
+msgstr "সম্ভবত একবার অনুসন্ধান করার চেষ্টা করুন?"
+
+#: 404.php:19
+msgid "Sorry, but the page you are looking for doesn&rsquo;t exist. "
+msgstr "দুঃখিত, আপনি যে পাতাটি খুঁজছেন তার অস্তিত্ব নেই।"
+
+#: 404.php:18
+msgid "Ooops&hellip; Error 404"
+msgstr "Ooops&hellip; ৪০৪ ত্রুটি"
+
+#: archive.php:57 archive.php:77 category.php:57 category.php:77 index.php:62
+#: index.php:82 search.php:43
+msgid "Page %1$s of %2$s"
+msgstr "পাতা %1$s এর %2$s"
+
+#: inc/customizer.php:99
+msgid "Category, Tag, Author, Archive Page&hellip;"
+msgstr "বিভাগ, ট্যাগ, লেখক, আর্কাইভ পাতা&hellip;"
+
+#: inc/template-tags.php:67
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "প্রকাশিত হয়েছে %s তারিখে"
+
+#: inc/customizer-controls.php:38
+msgid "Upgrade to <a href=\"#\">Codilight Premium</a> to be able to change the section order and styling!"
+msgstr "বিভাগ ক্রম এবং আখ্যা পরিবর্তন করতে <a href=\"#\">Codilight Premium</a> এ পদোন্নতি করুন।"
+
+#: inc/dashboard.php:53
+msgid "Support for %s WordPress theme is conducted through the WordPress free theme support forum."
+msgstr "%s ওয়ার্ডপ্রেস থিমের সমর্থন ওয়ার্ডপ্রেস ফ্রি থিম সাপোর্ট ফোরামের মাধ্যমে পরিচালিত হয়।"
+
+#: inc/dashboard.php:46
+msgid "Need any help to setup and configure %s? Please have a look at our documentations instructions."
+msgstr "%s স্থাপন এবং কনফিগার করতে সহযোগিতা প্রয়োজন? অনুগ্রহ করে আমাদের নথিপত্রের নির্দেশনাবলি দেখুন।"
+
+#: inc/dashboard.php:39
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
+msgstr "%s সকল থিম সেটিংস এর জন্য থিম কাস্টমাইজার সমর্থন করে। আপনার ওয়েবসাইট কাস্টমাইজ করা শুরু করতে \"কাস্টমাইজ\" এ ক্লিক করুন।"
+
+#. Author URI of the plugin/theme
+msgid "http://www.famethemes.com"
+msgstr "http://www.famethemes.com"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.famethemes.com/themes/codilight-lite"
+msgstr "http://www.famethemes.com/themes/codilight-lite"

@@ -1,0 +1,233 @@
+===========================================================
+Change Log for School Management System wordpress plugin V31 released on 29-09-2016
+===========================================================
+- [Fix] Attendance issue. 
+- [Fix] Class routine issue.
+- [Fix] Date formate issue.
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V30 released on 14-07-2016
+===========================================================
+- [Feature] Add student result report.
+- [Feature] Add multi select delete feature.
+- [Feature] Add option for change date formate.
+- [Fix] Division apply at everywhere. 
+- [Fix] Language issue.
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V29 released on 29-06-2016
+===========================================================
+- [Feature] Administrator can export students.
+- [Feature] Teacher take multiple classes. 
+- Teacher listing update.
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V28 released on 03-06-2016
+===========================================================
+- [Feature] Add teacher access rights settings 
+- [Feature] Add multiple section into class 
+- Previous attendance can be edit
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V27 released on 30-04-2016
+===========================================================
+- [Feature] Add mail templates 
+- [Feature] Send mail  on student registration, Student approve and fees alert mail 
+- [Feature] Send mail when message to other users 
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V26 released on 30-03-2016
+===========================================================
+- New - Invoice Generate for single student.
+- Fix twillio sms content
+- Fix Minor Bug
+
+===========================================================
+Change Log for School Management System wordpress plugin V25 released on 08-03-2016
+===========================================================
+- Fix Language bugs.
+
+===========================================================
+Change Log for School Management System wordpress plugin V24 released on 18-02-2016
+===========================================================
+- Fix minor bug.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V23 released on 21-01-2016
+===========================================================
+- [Feature] Access rights settings from admin
+- Update attendance view.
+- Update option teacher can manage only assign class subject marks
+- Fix minor bug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V22 released on 18-01-2016
+===========================================================
+- Fix bug in message module.
+- Fix bug to upload user image.
+
+===========================================================
+Change Log for School Management System wordpress plugin V21 released on 04-01-2016
+===========================================================
+- Update message module.
+- Add Sender Id in SMS setting.
+- Update attendance module.
+- Wordpress4.4 compatible.
+- Fix minor bug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V20 released on 19-11-2015
+===========================================================
+- [Feature] Library module.
+- [Feature] Fee Payment module.
+- [Feature] Parent can paid fee by paypal.
+- [Feature] Subject wise attendance.
+- [Feature] Fronted student registration form shortcode.
+- Export marks in csv.
+- Generate payment invoice in PDf.
+- Fix minor bug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V19 released on 23-09-2015
+===========================================================
+- Add option parent can be send message to student.
+- Add option student can be send message to each other.
+- Fix bug to add and remove parent's child student.
+- Fix minor css bug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V18 released on 19-09-2015
+===========================================================
+- Compatibility with Wordpress version 4.3.1.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V17 released on 18-09-2015
+===========================================================
+- Parent can send message only his/her child class student.
+- Fix minor bug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V16 released on 08-09-2015
+===========================================================
+- [Feature] Sent message to single user.
+- [Feature] Parent sent message to all user.
+- Fix bug teacher sent message to parent.
+
+===========================================================
+Change Log for School Management System wordpress plugin V15 released on 13-08-2015
+===========================================================
+- Fix bug sent message to all parents.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V14 released on 10-08-2015
+===========================================================
+-All Listing table are responsive.
+-Fix css issue viewed vertical menu in mobile browsers.
+-Fix bug GPA is displaying different values for PDF and Print options under marksheet.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V13 released on 07-08-2015
+===========================================================
+-Fix bug sending message on Compose section.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V12 released on 30-07-2015
+===========================================================
+-[Feature] Upload Student CSV.
+-[Feature] If Student absent then send sms his/her parent's.
+
+===========================================================
+Change Log for School Management System wordpress plugin V11 released on 25-07-2015
+===========================================================
+-Add Support Staff role.
+-Add Income and Expense in payment module.
+-Add Holiday in calendar.
+
+===========================================================
+Change Log for School Management System wordpress plugin V10 released on 23-07-2015
+===========================================================
+-Fix bug "You do not have sufficient permissions to access this page.”.
+-Fix Js Conflicts issue with other plugins.
+
+===========================================================
+Change Log for School Management System wordpress plugin V10 released on 23-07-2015
+===========================================================
+-Fix bug "You do not have sufficient permissions to access this page.”.
+-Fix Js Conflicts issue with other plugins.
+
+===========================================================
+Change Log for School Management System wordpress plugin V9 released on 18-07-2015
+===========================================================
+-change page slug.
+
+===========================================================
+Change Log for School Management System wordpress plugin V8 released on 15-07-2015
+===========================================================
+-[feature] Bulk marks upload via CSV.
+-In compose messages, add an option to send sms.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V7 released on 08-07-2015
+===========================================================
+- Display Student roll number every section.
+- Student list filter by class.
+- Add option to select class in Message and Notice.
+- Student see only own payment detail.
+- Parent see only their child payment detail.
+- Fix issue with GPA Count.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V6 released on 29-06-2015
+===========================================================
+-[feature] Add clickatell and twilio message service.
+-Fully responsiove.
+-Fix bug to Login issue.
+-Fix bug to js comflict with other plugins.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V5 released on 06-06-2015
+===========================================================
+- Fix bug to see user list.
+
+
+===========================================================
+Change Log for School Management System wordpress plugin V4 released on 22-05-2015
+===========================================================
+- [feature] RTL ready.
+- [feature] Parent's can view their child attendance.
+- [feature] Student's can view their own attendance.
+- [feature] Teacher's can view all student and their own attendance.
+- Change attendace view.
+- Fix bug on edit and delete class route.
+- Fix bug on attendace report. 
+- fix bug on pdf generate in chrome.
+
+===========================================================
+Change Log for School Management System wordpress plugin V3 released on 21-05-2015
+===========================================================
+- Multilanguage Supported
+
+===========================================================
+Change Log for School Management System wordpress plugin V2 released on 19-05-2015
+===========================================================
+- Updated css for aesthetically pleasing Dashboard
+- Fix bug on exam listing.
+- Fix bug to generate pdf file.
+
+===========================================================
+Change Log for School Management System  wordpress plugin V1 released on 18-05-2015
+===========================================================
+-Initial release
